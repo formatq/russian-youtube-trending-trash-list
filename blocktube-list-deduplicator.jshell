@@ -1,0 +1,50 @@
+// Clear duplicated records
+// Usage: jshell -v -R-Dlist=list.txt blocktube-list-deduplicator.jshell
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.LinkedHashMap;
+
+String fileName = System.getProperty("list");
+int count = 0;
+var map = new LinkedHashMap<>();
+try (var br = new BufferedReader(new FileReader(fileName))) {
+    for (String line; (line = br.readLine()) != null; ) {
+        try {
+            String channelName;
+            String channelId;
+
+            if (line.startsWith("// Blocked")) {
+                int start = line.indexOf("(") + 1;
+                int end = line.indexOf(")");
+                channelName = line.substring(start, end);
+                channelId = br.readLine();
+                map.put(channelId, channelName);
+                br.readLine();
+                count++;
+            }
+        } catch (Exception e) {
+            System.out.println("Error: " + e);
+        }
+    }
+}
+System.out.println("Count of channels: " + count + ". After deduplicate: " + map.size());
+var sb = new StringBuilder(
+        "// BlockTube https://chrome.google.com/webstore/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai")
+sb.append("\n");
+
+for (var entry : map.entrySet()) {
+    sb.append("\n").append("// Blocked by context menu (").append(entry.getValue()).append(")");
+    sb.append("\n").append(entry.getKey());
+    sb.append("\n");
+}
+
+var deduplicatedFilename = "deduplicated-" + fileName;
+var writer = new BufferedWriter(new FileWriter(deduplicatedFilename));
+writer.write(sb.toString());
+writer.close();
+System.out.println("Created file: " + deduplicatedFilename);
+/exit
