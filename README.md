@@ -1,5 +1,5 @@
 # Russian Youtube Trends Trash List
-The trash list of Russian Youtube channels that appears in Youtube-trends (about 3500 channels are blocked)
+The trash list of Russian Youtube channels that appears in Youtube-trends (about 4000 channels are blocked)
 
 
 # What is it?
