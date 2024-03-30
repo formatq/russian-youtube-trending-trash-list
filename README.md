@@ -1,8 +1,8 @@
 # Russian YouTube Trending Trash List
-The trash list of Russian YouTube channels that appears in YouTube's Trending (more than 6000 channels are in the list).
+A trash list of Russian YouTube channels that appears in YouTube's Trending (over 7,000 channels are listed).
 
 # What is it?
-This is a list of Russian YouTube channels that appear in YouTube Trending. The list began to be compiled somewhere in 
+This is a list of Russian YouTube channels that appear in YouTube Trending. The list started to be compiled sometime in
 August 2020. Since then, it has been regularly updated.
 
 YouTube's channels are blocked only from the Trending page (now, music, gaming, movies). 
@@ -12,7 +12,7 @@ Channel will be banned if it has:
 - **russian propaganda**
 - **esotericism**
 - children's gaming
-- only shorts videos
+- silly clip-on short videos
 - fights and football videos
 - non-russian and non-english content
 - very pop music
@@ -23,4 +23,4 @@ To block channels, I use the [BlockTube](https://github.com/amitbl/blocktube) br
 The source code of the extension is available on [GitHub](https://github.com/amitbl/blocktube).
 
 # Disclaimer
-You may not like that list, because one of your favorite YouTube-channel might be there.
+You might not like this list because one of your favourite YouTube channels might be on it.
