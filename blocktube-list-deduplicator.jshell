@@ -42,7 +42,7 @@ for (var entry : map.entrySet()) {
     sb.append("\n");
 }
 
-var deduplicatedFilename = "deduplicated-" + fileName;
+var deduplicatedFilename = fileName;
 var writer = new BufferedWriter(new FileWriter(deduplicatedFilename));
 writer.write(sb.toString());
 writer.close();
