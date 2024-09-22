@@ -27,7 +27,7 @@ try (var br = new BufferedReader(new FileReader(fileName))) {
                 count++;
             }
         } catch (Exception e) {
-            System.out.println("Error: " + e);
+            System.out.println("Error " + e + " with line \n" + line);
         }
     }
 }
@@ -42,7 +42,7 @@ for (var entry : map.entrySet()) {
     sb.append("\n");
 }
 
-var deduplicatedFilename = fileName;
+var deduplicatedFilename = "deduplicated-" + fileName;
 var writer = new BufferedWriter(new FileWriter(deduplicatedFilename));
 writer.write(sb.toString());
 writer.close();
