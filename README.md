@@ -1,5 +1,5 @@
 # Russian YouTube Trending Trash List
-A trash list of Russian YouTube channels that appears in YouTube's Trending (over 8,000 channels are listed).
+A trash list of Russian YouTube channels that appears in YouTube's Trending (over 8,500 channels are listed).
 
 # What is it?
 This is a list of Russian YouTube channels that appear in YouTube Trending. The list started to be compiled sometime in
@@ -13,7 +13,7 @@ Channel will be banned if it has:
 - **esotericism**
 - **casino**
 - children's gaming
-- silly clip-on short videos
+- silly/cringe clip-on short videos
 - fights and football videos
 - non-russian and non-english content
 - very pop music
