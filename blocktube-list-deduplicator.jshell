@@ -27,7 +27,7 @@ try (var br = new BufferedReader(new FileReader(fileName))) {
                 count++;
             }
         } catch (Exception e) {
-            System.out.println("Error " + e + " with line \n" + line);
+            System.out.println("An error '" + e + "' on line \n" + line);
         }
     }
 }
