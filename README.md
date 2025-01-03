@@ -11,7 +11,7 @@ YouTube's channels are blocked only from the Trending page (now, music, gaming, 
 Channel will be banned if it has: 
 - **russian propaganda**
 - **esotericism**
-- **casino**
+- **casino/gambling**
 - children's gaming
 - silly/cringe clip-on short videos
 - fights and football videos
