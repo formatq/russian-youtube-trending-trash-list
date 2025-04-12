@@ -1,27 +1,30 @@
 # Russian YouTube Trending Trash List
-A trash list of Russian YouTube channels that appears in YouTube's Trending (over 9000 channels are listed).
+A list of Russian YouTube channels that often appear on YouTube's Trending page (more than 9,500 channels listed).
 
-# What is it?
-This is a list of Russian YouTube channels that appear in YouTube Trending. The list started to be compiled sometime in
-August 2020. Since then, it has been regularly updated.
+## What is it?
+This is a collection of Russian YouTube channels that show up in the Trending section. 
+The list was started in August 2020 and has been updated regularly since then.
 
-YouTube's channels are blocked only from the Trending page (now, music, gaming, movies). 
+> **Note:** These channels are only blocked from the Trending sections like Music, Gaming, and Movies.
 
-# What gets banned?
-Channel will be banned if it has: 
-- **russian propaganda**
-- **esotericism**
-- **casino/gambling**
-- children's gaming
-- silly/cringe clip-on short videos
-- fights and football videos
-- non-russian and non-english content
-- very pop music
+## What gets blocked?
+A channel will be added to the block list if it features:
 
-To block channels, I use the [BlockTube](https://github.com/amitbl/blocktube) browser extension 
-([Google Chrome](https://chrome.google.com/webstore/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai) / 
-[Firefox](https://addons.mozilla.org/en-US/firefox/addon/blocktube/)). 
-The source code of the extension is available on [GitHub](https://github.com/amitbl/blocktube).
+- **Russian propaganda**
+- **Esotericism or mysticism**
+- **Casinos or gambling**
+- Kids gaming content
+- Silly or cringe short videos
+- Fights or football clips
+- Non-Russian and non-English content
+- Overly commercial pop music
 
-# Disclaimer
-You might not like this list because one of your favourite YouTube channels might be on it.
+To block these channels, I use the [BlockTube](https://github.com/amitbl/blocktube) browser extension:
+
+- [Google Chrome](https://chrome.google.com/webstore/detail/blocktube/bbeaicapbccfllodepmimpkgecanonai)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/blocktube/)
+
+The extension’s source code is available on [GitHub](https://github.com/amitbl/blocktube).
+
+## Disclaimer
+You might not agree with this list — your favorite channel could be on it.
