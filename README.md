@@ -1,5 +1,5 @@
 # Russian YouTube Trending Trash List
-A list of Russian YouTube channels that often appear on YouTube's Trending page (more than 9,500 channels listed).
+A list of Russian YouTube channels that often appear on YouTube's Trending page (more than 9,850 channels listed).
 
 ## What is it?
 This is a collection of Russian YouTube channels that show up in the Trending section. 
